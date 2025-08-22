@@ -1,0 +1,41 @@
+# CODEOWNERS file for calendar-handler-542
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-reporting @Armor-test/squad-product @Armor-test/team-reporting
+
+# Directory ownership
+/pages/ @Armor-test/squad-payments @Armor-test/dept-reliability @Armor-test/dept-logging
+/public/ @Armor-test/squad-product @Armor-test/squad-cache @Armor-test/squad-reporting
+/data/ @Armor-test/grp-search @Armor-test/grp-api @Armor-test/squad-ux
+/app/ @Armor-test/dept-ui @Armor-test/squad-performance @Armor-test/dept-reliability
+/utils/ @Armor-test/dept-identity @Armor-test/dept-reporting
+/ui/ @Armor-test/dept-release @Armor-test/grp-search
+/components/ @Armor-test/unit-governance @Armor-test/dept-reliability
+/styles/ @Armor-test/dept-automation @Armor-test/squad-database @Armor-test/squad-research
+/shared/ @Armor-test/team-governance @Armor-test/squad-search
+/security/ @Armor-test/squad-cloud @Armor-test/grp-search @Armor-test/dept-reporting
+/test/ @Armor-test/squad-reporting @Armor-test/team-reporting
+/scripts/ @Armor-test/dept-security @Armor-test/team-core @Armor-test/dept-billing
+/tools/ @Armor-test/squad-cloud @Armor-test/team-frontend
+/services/ @Armor-test/team-logging @Armor-test/squad-apps @Armor-test/squad-api
+/pkg/ @Armor-test/squad-research @Armor-test/grp-storage
+
+# File type ownership
+*.xml @Armor-test/squad-cache @Armor-test/dept-automation
+*.kt @Armor-test/dept-test @Armor-test/squad-ux
+*.c @Armor-test/unit-cloud @Armor-test/squad-product @Armor-test/unit-devops
+*.h @Armor-test/team-security @Armor-test/grp-storage @Armor-test/team-core
+*.css @Armor-test/dept-api @Armor-test/team-logging @Armor-test/grp-search
+*.graphql @Armor-test/unit-design @Armor-test/squad-payments @Armor-test/squad-search
+*.gradle @Armor-test/team-reporting @Armor-test/grp-reporting
+*.proto @Armor-test/grp-integration @Armor-test/team-reporting @Armor-test/grp-payments
+*.toml @Armor-test/squad-payments @Armor-test/dept-billing
+*.js @Armor-test/grp-payments @Armor-test/grp-ui @Armor-test/dept-api
+*.py @Armor-test/unit-design @Armor-test/grp-payments
+*.lock @Armor-test/unit-governance @Armor-test/squad-ux @Armor-test/grp-storage
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
